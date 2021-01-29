@@ -1,12 +1,13 @@
 import Head from "next/head"
-import Layout from "../components/Layout"
+import Feed from "./Feed"
 
 export default function Home() {
   return (
-    <Layout>
-      <Head>
-        <title>Login</title>
-      </Head>
-    </Layout>
+    <div>
+        <Head>
+          <title>Login</title>
+        </Head>
+        <Feed />
+    </div>
   )
 }
