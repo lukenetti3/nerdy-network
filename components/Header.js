@@ -9,7 +9,7 @@ export default function Header() {
           <ul className="flex">
             <Link href="/Feed"><a className="px-4">The Feed</a></Link>
             <Link href="/Profile"><a className="px-4">Profile</a></Link>
-            <Link href="/Signup"><a className="px-4">Login/Signup</a></Link>
+            <Link href="/Login"><a className="px-4">Login/Signup</a></Link>
           </ul>
       </ul>
     </div>
