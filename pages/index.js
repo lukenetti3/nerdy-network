@@ -1,5 +1,5 @@
 import Head from "next/head"
-import Feed from "./Feed"
+import Login from "./login"
 
 export default function Home() {
   return (
@@ -7,7 +7,7 @@ export default function Home() {
         <Head>
           <title>Login</title>
         </Head>
-        <Feed />
+        <Login />
     </div>
   )
 }
