@@ -2,9 +2,9 @@ import Header from "./Header"
 
 export default function Layout({ children }) {
   return (
-    <div className="mx-5 py-5">
+    <div>
       <Header />
-        <div>{children}</div>
+      <div>{children}</div>
     </div>
   )
 }
